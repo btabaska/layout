@@ -1,10 +1,32 @@
 nav {
   height: 10vh;
   background-color: blue;
+  position: relative;
 }
 
 main {
   height: 80vh;
+}
+
+.nav-links {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translate(0%, -50%);
+}
+
+.nav-links li a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links li:not(:last-child) {
+  margin-right: 10px;
 }
 
 footer {
