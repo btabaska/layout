@@ -49,6 +49,18 @@ main {
 .right {
   background-color: cyan;
   float: right;
+  position: relative;
+}
+
+.center {
+  background-color: black;
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  border-radius: 15px;
 }
 
 footer {
